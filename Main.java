@@ -27,5 +27,7 @@ public class Main {
         VetClinic vc1 = new VetClinic("Klinika zwierząt Vet");
         vc1.setPet(dog1);
         System.out.println(vc1.clinicName + " leczy psa " + vc1.getPet().name);
+
+        //lets check how work revert option
     }
 }
