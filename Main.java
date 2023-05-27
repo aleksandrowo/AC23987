@@ -17,5 +17,11 @@ public class Main {
         Dog dog2 = new Dog("Leo", 10);
         System.out.println(dog2.getName() + " is " + dog2.age + " ys. old.");
         dog2.speak();
+
+        Person P1 = new Person("Alicja Śliczna");
+        P1.setPet(cat1);
+        Person P2 = new Person ("Piotr Śliczny");
+        P2.setPet(cat1);
+        System.out.println(P1.getPet().name + " ma opiekuna " + P1.name + " oraz " + P2.name);
     }
 }
