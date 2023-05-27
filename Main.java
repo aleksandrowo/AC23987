@@ -23,5 +23,9 @@ public class Main {
         Person P2 = new Person ("Piotr Śliczny");
         P2.setPet(cat1);
         System.out.println(P1.getPet().name + " ma opiekuna " + P1.name + " oraz " + P2.name);
+
+        VetClinic vc1 = new VetClinic("Klinika zwierząt Vet");
+        vc1.setPet(dog1);
+        System.out.println(vc1.clinicName + " leczy psa " + vc1.getPet().name);
     }
 }
